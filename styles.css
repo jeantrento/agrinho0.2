@@ -15,7 +15,7 @@ body {
     padding: 20px;
     border-radius: 15px; /* Cantos mais arredondados */
     box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Sombra mais pronunciada */
-    max-width: 600px;
+    max-width: 800px; /* Largura máxima ajustada para acomodar as imagens */
     width: 100%;
     border: 2px solid #a67b5b; /* Borda marrom médio */
 }
@@ -35,13 +35,20 @@ h2 {
     font-weight: normal;
 }
 
-.recipe-image {
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Espaçamento entre as imagens */
+    margin: 20px 0;
+}
+
+.gallery img {
     width: 100%;
-    max-width: 500px; /* Limita a largura máxima da imagem */
+    max-width: 300px; /* Largura máxima das imagens */
     height: auto; /* Mantém a proporção da imagem */
-    margin: 20px 0; /* Espaço acima e abaixo da imagem */
-    border-radius: 10px; /* Canto arredondado para a imagem */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra suave para a imagem */
+    border-radius: 10px; /* Canto arredondado para as imagens */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra suave para as imagens */
 }
 
 .recipe {
