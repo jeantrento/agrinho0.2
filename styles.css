@@ -35,6 +35,15 @@ h2 {
     font-weight: normal;
 }
 
+.recipe-image {
+    width: 100%;
+    max-width: 500px; /* Limita a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 20px 0; /* Espaço acima e abaixo da imagem */
+    border-radius: 10px; /* Canto arredondado para a imagem */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra suave para a imagem */
+}
+
 .recipe {
     text-align: left;
     margin-top: 20px;
@@ -77,3 +86,4 @@ button {
 button:hover {
     background-color: #a67b5b; /* Marrom escuro no hover */
 }
+
