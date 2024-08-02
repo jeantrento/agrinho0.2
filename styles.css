@@ -15,7 +15,7 @@ body {
     padding: 20px;
     border-radius: 15px; /* Cantos mais arredondados */
     box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Sombra mais pronunciada */
-    max-width: 800px; /* Largura máxima ajustada para acomodar as imagens */
+    max-width: 800px; /* Largura máxima ajustada para acomodar o texto */
     width: 100%;
     border: 2px solid #a67b5b; /* Borda marrom médio */
 }
@@ -35,25 +35,9 @@ h2 {
     font-weight: normal;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px; /* Espaçamento entre as imagens */
-    margin: 20px 0;
-}
-
-.gallery img {
-    width: 100%;
-    max-width: 300px; /* Largura máxima das imagens */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 10px; /* Canto arredondado para as imagens */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra suave para as imagens */
-}
-
 .recipe {
     text-align: left;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .recipe h3 {
@@ -93,4 +77,3 @@ button {
 button:hover {
     background-color: #a67b5b; /* Marrom escuro no hover */
 }
-
